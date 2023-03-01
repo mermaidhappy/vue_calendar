@@ -29,7 +29,7 @@ export default {
     width: 6rem;
     margin-bottom: 1rem;
     .error-message {
-      font-size: 1.2rem;
+      font-size: 2rem;
       color: #777;
     }
   }

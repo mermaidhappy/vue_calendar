@@ -5,7 +5,9 @@
   <div class="scroll-wrapper" ref="scrollWrapper">
     <div class="scroll-content">
       <SearchInput />
-      <ErrorTip v-if="errorCode != 0">{{ errorMessage }}</ErrorTip>
+      <ErrorTip v-if="errorCode != 0">
+        <span class="error-msg">{{ errorMessage }}</span>
+      </ErrorTip>
       <RouterView v-slot="{ Component }" v-else>
         <KeepAlive>
           <component :is="Component"></component>
@@ -52,4 +54,8 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.error-msg {
+  font-size: 1.6rem;
+}
+</style>

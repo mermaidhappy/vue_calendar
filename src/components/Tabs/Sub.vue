@@ -27,6 +27,7 @@ export default {
   height: 100%;
   .icon {
     color: #fff;
+    font-size: 1.4rem;
     width: 2.4rem;
     height: 2.4rem;
     border: 1px solid #ccc;
@@ -36,7 +37,7 @@ export default {
     transition: all 0.3s;
   }
   .text {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: $defaultBgColor;
     margin-top: 0.3rem;
     transition: all 0.3s;

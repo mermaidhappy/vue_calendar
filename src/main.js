@@ -7,5 +7,6 @@ import '@/assets/css/resets.css';
 import '@/assets/css/border.css';
 //引入静态js文件
 import '@/assets/js/common';
+import '@/assets/css/common.scss';
 
 createApp(App).use(store).use(router).mount('#app');

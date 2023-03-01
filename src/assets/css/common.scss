@@ -1,0 +1,15 @@
+@import '~@/assets/css/variables.scss';
+html,
+body,
+.container {
+  height: 100%;
+}
+body {
+  background-color: #fff;
+}
+.container {
+  padding: 8.2rem 0 4.4rem 0;
+}
+* {
+  box-sizing: border-box;
+}

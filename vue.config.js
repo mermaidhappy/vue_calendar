@@ -1,6 +1,15 @@
 const { defineConfig } = require('@vue/cli-service');
+const { resolve } = require('path');
 module.exports = defineConfig({
   transpileDependencies: true,
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@': resolve('src'),
+        css: resolve('src/assets/css'),
+      },
+    },
+  },
   devServer: {
     //设置代理，解决跨域获取数据的问题
     proxy: {

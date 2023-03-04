@@ -28,10 +28,10 @@ export default {
   .img {
     width: 6rem;
     margin-bottom: 1rem;
-    .error-message {
-      font-size: 2rem;
-      color: #777;
-    }
+  }
+  .error-message {
+    font-size: 1.4rem;
+    color: #777;
   }
 }
 </style>

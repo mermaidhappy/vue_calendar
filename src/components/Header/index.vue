@@ -22,6 +22,7 @@ export default {
   @include vh-center;
   position: fixed;
   z-index: 999;
+  transform: translateZ(10px);
   top: 0;
   left: 0;
   border-bottom: 1px solid #ccc;
